@@ -1,0 +1,196 @@
+body{
+    background-color: rgb(217, 219, 233);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+header{
+    background: rgb(0,0,0);
+    padding: 20px;   
+}
+
+
+
+h1{
+    color: rgb(229, 227, 238);
+    margin: 20px 1px 10px 1px;  
+    font-size: clamp(20px, 5vw, 40px);
+}
+h2{
+    color: rgb(177, 211, 158);
+    font-size: clamp(15px, 3vw, 25px); 
+}
+
+
+h3{
+    color: rgb(8, 6, 16); 
+    font-size: clamp(15px, 3vw, 25px); 
+}
+
+
+
+h1  a {
+    color: rgb(229, 227, 238);             /* text color */
+    text-decoration: none;      /* remove underline */
+}
+
+h1  a:visited {
+    color: rgb(229, 227, 238);           /* ensure visited links stay white */
+}
+
+h1  a:hover {
+    color: lightyellow;         /* subtle hover effect */
+    text-decoration: none; /* underline on hover */
+}
+
+
+
+
+
+
+/* LINKS */
+
+ul.links {
+    position: absolute;
+    top: 10px;             /* distance from the top */
+    right: 10px;           /* distance from the right */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;         /* arrange links horizontally */
+    gap: 20px;             /* space between items */
+ 
+}
+
+ul.links  li {
+    margin: 0;
+    padding: 0;
+   
+}
+
+ul.links  a {
+    color: white;               /* text color */
+    text-decoration: none;      /* remove underline */
+    font-size: clamp(12px, 2vw, 15px);            /* adjust text size */
+}
+
+ul.links  a:visited {
+    color: white;               /* ensure visited links stay white */
+    font-size: 1vw;
+
+}
+
+ul.links  a:hover {
+    color: lightyellow;         /* subtle hover effect */
+    text-decoration: underline; /* underline on hover */
+}
+
+
+
+
+/* BUTTONS */
+.nav-section {
+    background: rgb(30, 30, 51);
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;  /* optional: allows wrapping on smaller screens */
+}
+
+
+div{
+    background: rgb(30, 30, 51); 
+    margin:auto;
+    width:100px;
+    color: white;
+    display: inline;
+}
+
+
+/* Button styles for the links */
+.nav-button {
+    display: flex;                 /* use flex instead of inline-block */
+    justify-content: center;      /* center horizontally */
+    align-items: center;          /* center vertically */
+    flex-direction: column;       /* stack lines like with <br> */
+    background: rgb(30, 30, 51);
+    color: white;
+    width: clamp(100px, 15vw, 150px);
+    height: clamp(40px, 5vw, 60px);
+    font-size: clamp(10px, 2vw, 16px);
+    text-decoration: none;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* Links inside the buttons */
+.nav-button a {
+    color: white;              /* Make link text white */
+    text-decoration: none;     /* Remove underline */
+    display: inline-block;     /* Ensure links behave like block-level elements inside the button */
+}
+
+.nav-button:visited {
+    color: rgb(202, 199, 218); /* Prevent color change on click */
+    
+}
+
+.nav-button:hover {
+    background: rgb(48, 47, 91);
+}
+
+
+
+
+
+/* BODY PART */
+.model-section {
+    background:  rgb(217, 219, 233);  /* darker background */
+    padding: 2rem;          /* padding around content */
+    max-width: 800px;       /* max width for large screens */
+    margin: 3rem auto 0 auto; /* center the section with margin on top */
+    color: rgb(8, 6, 16);           /* white text color */
+    font-size: clamp(14px, 1.2vw, 18px); /* responsive font size */
+    line-height: 1.6;       /* line height for readability */
+}
+
+/* Specific style for paragraphs inside the model section */
+
+
+
+.model-section p {
+    background:  rgb(217, 219, 233);    /* grey background */
+    font-size: clamp(14px, 1.2vw, 18px); /* responsive font size */
+    color: rgb(8, 6, 16); 
+}
+
+
+.math-definitions {
+    list-style-type: square;        /* Square bullets */
+    padding-left: 1.5em;            /* Indent from the left */
+    margin-top: 1em;
+    font-family: Georgia, serif;    /* Optional: change font */
+    font-size: 1rem;
+    background-color: rgb(211, 213, 231);      /* Light background for clarity */
+    border-left: 4px;    /* Decorative border */
+    padding: 1em;
+    border-radius: 8px;
+    line-height: 1.6; 
+  }
+  .math-definitions li {
+    margin-bottom: 0.5em;           /* Spacing between items */
+  }
+  
+
+
+footer{
+    background: rgb(0,0,0);
+    color: white;
+    padding: 20px;
+}
