@@ -1,8 +1,0 @@
-title: NeuroTube
-description: A platform for simulating and visualizing neural networks and neuron behavior. Explore and experiment with neuron models to understand brain functions and computational neuroscience.
-theme: minima
-
-# Adding header image
-header:
-  image: /header.png
-
